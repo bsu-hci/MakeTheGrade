@@ -43,4 +43,8 @@ jobs:
           force_orphan: true
           user_name: 'github-ci[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
+<<<<<<< HEAD
           commit_message: 'Publish to gh-pages'
+=======
+          commit_message: 'Publish to gh-pages'
+>>>>>>> 5f568e6e153ae8d41e7b1f2e9a7b927a1a61b0eb
