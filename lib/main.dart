@@ -74,7 +74,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
             onPressed: () =>
                 setState(() => grade = calc(int.parse(gradeController.text))),
             label: Text('Calculate Grade'),
-            icon: const Icon(Icons.equalizer_rounded),
+            icon: const Icon(Icons.add),
             backgroundColor: Colors.redAccent[900],
           )
         ],
