@@ -131,18 +131,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                     }
                   })),
           Text('your grade is $grade'),
-<<<<<<< Updated upstream
-          FloatingActionButton.extended(
-            onPressed: () =>
-                setState(() => grade = calc(int.parse(gradeController.text))),
-            label: Text('Calculate Grade'),
-            icon: const Icon(Icons.add),
-            backgroundColor: Colors.redAccent[900],
-=======
           RaisedButton(
             onPressed: () => setState(() => grade = calc()),
             child: Text("Calculate"),
->>>>>>> Stashed changes
           )
         ],
       )),
