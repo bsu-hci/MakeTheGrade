@@ -96,6 +96,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
         children: [
           Padding(padding: EdgeInsets.all(85)),
           Text('Please input your score.'),
+          Padding(padding: EdgeInsets.all(12)),
           Text('triage?'),
           Checkbox(
             value: triage,
